@@ -40,4 +40,8 @@ Apache2 virtual host example to put into /etc/apache2/sites-available/api.conf
         CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ```
-The website can be enabled by running `a2ensite api`, a Let's encrypt SSL certificate can be added using `certbot -v --apache -n --email mail@example.com --agree-tos -d api.example.com`
+The website can be enabled and an Let's encrypt SSL certificate added by running
+```
+a2ensite api
+certbot -v --apache -n --email mail@example.com --agree-tos -d api.example.com
+```
