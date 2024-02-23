@@ -1,0 +1,112 @@
+{
+  "users": {
+    "data": {
+      "id": 1,
+      "name": "filip",
+      "email": "test@email.com"
+    }
+  },
+  "restourants": {
+    "data": [
+      {
+        "id": 1,
+        "name": "picerija",
+        "delivery_price": 1.1,
+        "rating": 4.9,
+        "logo": {
+          "id": 1,
+          "path": "https://api-grilly.nofisto.com/images/picerija.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Burger king",
+        "delivery_price": 2,
+        "rating": 4.7,
+        "logo": {
+          "id": 2,
+          "path": "https://api-grilly.nofisto.com/images/burger.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Pastara",
+        "delivery_price": 1,
+        "rating": 4.8,
+        "logo": {
+          "id": 3,
+          "path": "https://api-grilly.nofisto.com/images/pastara.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "name": "VSS restoran",
+        "delivery_price": 0,
+        "rating": 4.6,
+        "logo": {
+          "id": 4,
+          "path": "https://api-grilly.nofisto.com/images/vss.jpg"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Rostilj kod komsije",
+        "delivery_price": 0.5,
+        "rating": 5,
+        "logo": {
+          "id": 5,
+          "path": "https://api-grilly.nofisto.com/images/komsija.jpg"
+        }
+      }
+    ]
+  },
+  "meals": {
+    "data": [
+      {
+        "id": 1,
+        "name": "porodicna pizza",
+        "price": 10,
+        "picture": {
+          "id": 6,
+          "path": "https://api-grilly.nofisto.com/images/pizza.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "name": "pola kilo krompir",
+        "price": 4.5,
+        "picture": {
+          "id": 7,
+          "path": "https://api-grilly.nofisto.com/images/krompir.jpg"
+        }
+      },
+      {
+        "id": 3,
+        "name": "sladoled",
+        "price": 2.9,
+        "picture": {
+          "id": 8,
+          "path": "https://api-grilly.nofisto.com/images/sladoled.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "name": "salata",
+        "price": 3,
+        "picture": {
+          "id": 9,
+          "path": "https://api-grilly.nofisto.com/images/salata.jpg"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Komsina pljeskavica",
+        "price": 0,
+        "picture": {
+          "id": 10,
+          "path": "https://api-grilly.nofisto.com/images/pljeskavica.jpg"
+        }
+      }
+    ]
+  }
+}
