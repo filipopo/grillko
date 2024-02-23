@@ -4,7 +4,7 @@ WORKDIR /home/node/app
 
 ENV NODE_ENV=production
 
-COPY package.json package-lock.json ./
+COPY *.json server.js ./
 
 COPY images ./images
 
