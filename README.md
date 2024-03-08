@@ -5,11 +5,11 @@ A food delivery app, when launching the application you are greeted by a setup s
   <img src="https://github.com/filipopo/grillko/assets/4060824/c672f205-2485-4503-b54c-953ccbaa1c0f" width="250" alt="setup screen">
   <img src="https://github.com/filipopo/grillko/assets/4060824/f6bec52f-32bb-4521-9379-846bde7104e0" width="250" alt="setup screen validation">
 </p>
-The main activity after completing the setup is a list of players with their current roll and total score, players can roll in sequence one by one or use the roll for all button which will roll for all players which haven't already rolled in that round, the list of players is scrollable
+The main activity after completing the setup is a list of restaraunts with info about them
 <p float="left">
   <img src="https://github.com/filipopo/grillko/assets/4060824/0d288032-383e-4d35-8021-39727d7af577" width="500" alt="main screen">
 </p>
-Clicking on a restoraunt opens a menu with the meals available in it
+Clicking on a restaraunt opens a menu with the meals available in it
 <p float="left">
   <img src="https://github.com/filipopo/grillko/assets/4060824/6a5714db-8721-4f3f-b590-b0ed9bf86294" width="500" alt="meals screen">
 </p>
